@@ -1,5 +1,7 @@
 import string
 
+from sklearn.base import TransformerMixin
+
 import nltk
 from nltk import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -23,3 +25,18 @@ def clean_text(text: str) -> str:
     
     return text
 
+
+class DenseTransformer(TransformerMixin):
+    def fit(self, X, y=None, **fit_params):
+        return self
+
+    def transform(self, X, y=None, **fit_params):
+        return X.todense()
+    
+    def __str__(self):
+        return "DenseTransformer()"
+    
+    def __repr__(self):
+        return self.__str__()
+    
+    
