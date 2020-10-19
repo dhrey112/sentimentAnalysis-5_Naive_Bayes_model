@@ -1,8 +1,8 @@
 # Sentiment Analysis using Naive Bayes
-This sentiment analysis involved the used of naive bayes algorithms of multinomial, bernoulli, gaussian, categorical and complement and the data set used in this analysis is from imdb movie reviews. The main purpose of this exercise is to know which of the Naive Bayes algorithms is more efficient in analysing sentiment analysis or text classification. Mettrics used are F1-score and Accuracy score.
+This sentiment analysis involved the used of naive bayes algorithms of multinomial, bernoulli, gaussian, categorical and complement and the data set used in this analysis is from imdb movie reviews, yelp reviews and amazon_cells revieeq. The main purpose of this exercise is to know which of the Naive Bayes algorithms is more efficient in analysing sentiment analysis or text classification. Mettrics used are F1-score and Accuracy score.
 
 # Setup for Developers 
-I used the new Pipenv for creating the virtual environment
+We used the Pipenv for creating the virtual environment
 
 The Pipfile  is meant to replace requirements.txt and the Pipfile.lock enables deterministic builds.
 
@@ -32,57 +32,70 @@ Instructions for installing this project on your local machine and getting it ru
 # Findings:
 ### Multinomial Naive Bayes (MultinomialNB)
     With Count Vectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   74.13%
-        -Accuracy-Score:   75.17%
-    
+        -Maximum Accuracy:   82.55%
+        -Minimum Accuracy:   76.36%
+        -Mean Accuracy:      79.15%
+        -Standard Deviation: 0.0230
+        
     With TfidfVectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   75.64%
-        -Accuracy-Score:   74.50% 
+        -Maximum Accuracy:   83.27%
+        -Minimum Accuracy:   78.18%
+        -Mean Accuracy:      80.17%
+        -Standard Deviation: 0.0186
 
-Click [Multinomial Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-MultinomialNB.ipynb) to check
+Click [Multinomial Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-multinomialNB.ipynb) to check
       
 ### Bernoulli Naive Bayes (BernoulliNB)
-    With Count Vectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   73.56%
-        -Accuracy-Score:   68.92%
-
-    With TfidfVectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   73.56%
-        -Accuracy-Score:   68.92%
+     With Count Vectorizer the metrics that were achieved in this model are as follows:
+        -Maximum Accuracy:   82.18%
+        -Minimum Accuracy:   76.00%
+        -Mean Accuracy:      78.89%
+        -Standard Deviation: 0.0193
         
+    With TfidfVectorizer the metrics that were achieved in this model are as follows:
+        -Maximum Accuracy:   82.18%
+        -Minimum Accuracy:   76.00%
+        -Mean Accuracy:      78.89%
+        -Standard Deviation: 0.0193     
 Click [Bernoulli Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-BernoulliNB.ipynb) to check
     
 ### Complement Naive Bayes (ComplementNB)
     With Count Vectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   78.38%
-        -Accuracy-Score:   78.38%
+        -Maximum Accuracy:   82.91%
+        -Minimum Accuracy:   76.00%
+        -Mean Accuracy:      79.55%
+        -Standard Deviation: 0.0242
       
     With TfidfVectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   80.52%
-        -Accuracy-Score:   79.73%
-        
+        -Maximum Accuracy:   84.36%
+        -Minimum Accuracy:   78.91%
+        -Mean Accuracy:      80.68%
+        -Standard Deviation: 0.0191       
 Click [Complement Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-ComplementNB.ipynb) to check
   
 ### Categorical Naive Bayes (CategoricalNB)
     With Count Vectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   80.00%
-        -Accuracy-Score:   77.03%
-
-    With TfidfVectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   80.00%
-        -Accuracy-Score:   77.03%
+        -Maximum Accuracy:   83.94%
+        -Minimum Accuracy:   77.45%
+        -Mean Accuracy:      79.88%
+        -Standard Deviation: 0.0204
+        
+Note: It is difficult to carryout TFIDF with Categorical Naive Bayes, any contributor can help on this.     
 
 Click [Categorical Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-CategoricalNB.ipynb) to check
     
 ### Gaussian Naive Bayes (GaussianNB)
     With Count Vectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   70.24%
-        -Accuracy-Score:   66.44%
+        -Maximum Accuracy:   72.63%
+        -Minimum Accuracy:   61.82%
+        -Mean Accuracy:      66.12%
+        -Standard Deviation: 0.0309
 
     With TfidfVectorizer the metrics that were achieved in this model are as follows:
-        -F1-Score:   69.62%
-        -Accuracy-Score:   67.79%
-
+        -Maximum Accuracy:   71.64%
+        -Minimum Accuracy:   64.00%
+        -Mean Accuracy:      67.94%
+        -Standard Deviation: 0.0184
 Click [GaussianNB Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-GaussianNB.ipynb) to check
 
 ## Summary
