@@ -43,7 +43,7 @@ Instructions for installing this project on your local machine and getting it ru
         -Mean Accuracy:      80.17%
         -Standard Deviation: 0.0186
 
-Click [Multinomial Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/sentiment-analysis-with-gaussianNB.ipynb) to check
+Click [Multinomial Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/sentiment-analysis-with-multinomialNB.ipynb) to check
       
 ### Bernoulli Naive Bayes (BernoulliNB)
      With Count Vectorizer the metrics that were achieved in this model are as follows:
