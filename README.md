@@ -57,7 +57,7 @@ Click [Multinomial Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_
         -Minimum Accuracy:   76.00%
         -Mean Accuracy:      78.89%
         -Standard Deviation: 0.0193     
-Click [Bernoulli Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-BernoulliNB.ipynb) to check
+Click [Bernoulli Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-bernoulliNB.ipynb) to check
     
 ### Complement Naive Bayes (ComplementNB)
     With Count Vectorizer the metrics that were achieved in this model are as follows:
@@ -71,7 +71,7 @@ Click [Bernoulli Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Na
         -Minimum Accuracy:   78.91%
         -Mean Accuracy:      80.68%
         -Standard Deviation: 0.0191       
-Click [Complement Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-ComplementNB.ipynb) to check
+Click [Complement Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-complementNB.ipynb) to check
   
 ### Categorical Naive Bayes (CategoricalNB)
     With Count Vectorizer the metrics that were achieved in this model are as follows:
@@ -82,7 +82,7 @@ Click [Complement Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_N
         
 Note: It is difficult to carryout TFIDF with Categorical Naive Bayes, any contributor can help on this.     
 
-Click [Categorical Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-CategoricalNB.ipynb) to check
+Click [Categorical Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-categoricalNB.ipynb) to check
     
 ### Gaussian Naive Bayes (GaussianNB)
     With Count Vectorizer the metrics that were achieved in this model are as follows:
@@ -96,7 +96,7 @@ Click [Categorical Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_
         -Minimum Accuracy:   64.00%
         -Mean Accuracy:      67.94%
         -Standard Deviation: 0.0184
-Click [GaussianNB Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-GaussianNB.ipynb) to check
+Click [GaussianNB Naive Bayes](https://github.com/dhrey112/sentimentAnalysis-5_Naive_Bayes_model/blob/master/Sentiment-Analysis-with-gaussianNB.ipynb) to check
 
 ## Summary
  With insights derived from the five naive bayes algorithm models, we concluded that the complement naive bayes algorithm with TFIDF and Categorical naives bayes with CountVectorizer are more efficient when analysing sentiment. One can consider starting from there before employing any other algorithm in project related to the subject matter.
